@@ -32,7 +32,6 @@ with suppress(Exception):
     for i in (path_utilities, path_amino):
         Path(i).mkdir(exist_ok=True)
 
-
 def print_exception(exc):
     print(repr(exc))
 
